@@ -1,0 +1,5 @@
+D:\xsis\2013\MiniProject\MiniProject.ViewModel\bin\Debug\MiniProject.ViewModel.dll
+D:\xsis\2013\MiniProject\MiniProject.ViewModel\bin\Debug\MiniProject.ViewModel.pdb
+D:\xsis\2013\MiniProject\MiniProject.ViewModel\obj\Debug\2.MiniProject.ViewModel.csprojResolveAssemblyReference.cache
+D:\xsis\2013\MiniProject\MiniProject.ViewModel\obj\Debug\MiniProject.ViewModel.dll
+D:\xsis\2013\MiniProject\MiniProject.ViewModel\obj\Debug\MiniProject.ViewModel.pdb

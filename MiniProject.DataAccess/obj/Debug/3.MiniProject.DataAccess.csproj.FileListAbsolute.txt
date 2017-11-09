@@ -1,0 +1,14 @@
+D:\xsis\2013\MiniProject\MiniProject.DataAccess\bin\Debug\MiniProject.DataAccess.dll
+D:\xsis\2013\MiniProject\MiniProject.DataAccess\bin\Debug\MiniProject.DataAccess.pdb
+D:\xsis\2013\MiniProject\MiniProject.DataAccess\obj\Debug\3.MiniProject.DataAccess.csprojResolveAssemblyReference.cache
+D:\xsis\2013\MiniProject\MiniProject.DataAccess\obj\Debug\MiniProject.DataAccess.dll
+D:\xsis\2013\MiniProject\MiniProject.DataAccess\obj\Debug\MiniProject.DataAccess.pdb
+D:\xsis\2013\MiniProject\MiniProject.DataAccess\bin\Debug\MiniProject.DataAccess.dll.config
+D:\xsis\2013\MiniProject\MiniProject.DataAccess\bin\Debug\EntityFramework.dll
+D:\xsis\2013\MiniProject\MiniProject.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\xsis\2013\MiniProject\MiniProject.DataAccess\bin\Debug\MiniProject.DataModel.dll
+D:\xsis\2013\MiniProject\MiniProject.DataAccess\bin\Debug\MiniProject.ViewModel.dll
+D:\xsis\2013\MiniProject\MiniProject.DataAccess\bin\Debug\MiniProject.DataModel.pdb
+D:\xsis\2013\MiniProject\MiniProject.DataAccess\bin\Debug\MiniProject.ViewModel.pdb
+D:\xsis\2013\MiniProject\MiniProject.DataAccess\bin\Debug\EntityFramework.xml
+D:\xsis\2013\MiniProject\MiniProject.DataAccess\bin\Debug\EntityFramework.SqlServer.xml

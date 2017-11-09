@@ -1,0 +1,79 @@
+﻿@model IEnumerable<MiniProject.ViewModel.PemasokViewModel>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Kode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NamaPemasok)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Alamat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NoHp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Aktif)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NamaPemasok)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Alamat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NoHp)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Aktif)
+        </td>
+        <td>
+            <button type="button" value="Edit" class="btn btn-warning btn-edit" data-id="@item.Id" title="Edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></button>
+            <button type="button" value="Delete" class="btn btn-danger btn-delete" data-id="@item.Id" title="Delete"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></button>
+        </td>
+    </tr>
+}
+
+</table>
+
+@Scripts.Render("~/bundles/jqueryval")
+<script type="text/javascript">
+    $(".btn-edit").click(function () {
+        //alert($(this).attr("data-id"));
+        $.ajax({
+            url: '@Url.Action("Edit", "Pemasok")',
+            type: 'get',
+            data: { id: $(this).attr("data-id") },
+            success: function (result) {
+                $(".modal-body").html(result);
+                $("#modal-form").modal("show");
+            }
+        })
+    });
+
+    $(".btn-delete").click(function () {
+        //alert($(this).attr("data-id"));
+        $.ajax({
+            url: '@Url.Action("Delete", "Pemasok")',
+            type: 'get',
+            data: { id: $(this).attr("data-id") },
+            success: function (result) {
+                $(".modal-body").html(result);
+                $("#modal-form").modal("show");
+            }
+        });
+    });
+
+
+</script>

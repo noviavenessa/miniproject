@@ -1,0 +1,10 @@
+D:\xsis\2013\MiniProject\MiniProject.DataModel\bin\Debug\MiniProject.DataModel.dll.config
+D:\xsis\2013\MiniProject\MiniProject.DataModel\bin\Debug\MiniProject.DataModel.dll
+D:\xsis\2013\MiniProject\MiniProject.DataModel\bin\Debug\MiniProject.DataModel.pdb
+D:\xsis\2013\MiniProject\MiniProject.DataModel\bin\Debug\EntityFramework.dll
+D:\xsis\2013\MiniProject\MiniProject.DataModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\xsis\2013\MiniProject\MiniProject.DataModel\bin\Debug\EntityFramework.xml
+D:\xsis\2013\MiniProject\MiniProject.DataModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\xsis\2013\MiniProject\MiniProject.DataModel\obj\Debug\1.MiniProject.DataModel.csprojResolveAssemblyReference.cache
+D:\xsis\2013\MiniProject\MiniProject.DataModel\obj\Debug\MiniProject.DataModel.dll
+D:\xsis\2013\MiniProject\MiniProject.DataModel\obj\Debug\MiniProject.DataModel.pdb
